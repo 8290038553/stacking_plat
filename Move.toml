@@ -1,0 +1,15 @@
+[package]
+name = "StakingPlatform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="3b37e7c20c1bb87abec827f7d0a533ed71a00719b4b0a97bc9c0d5b2b4a446d7"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
